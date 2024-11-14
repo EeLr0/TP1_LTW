@@ -64,13 +64,12 @@ function App() {
       ) {
         setEstadoJogo(tabuleiro[a[0]][a[1]]); 
         break;
+      }else if(jogadas + 1 === 9 && estadoJogo === ''){
+        setEstadoJogo('Empate')
       }
 
     }
 
-    if(jogadas + 1 === 9 && tabuleiro.find(null) === undefined){
-      setEstadoJogo('Empate')
-    }
   }
 
   
