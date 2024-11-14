@@ -1,8 +1,1 @@
-# React + Vite
-
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+O TP1 consistem em um projecto que contem os componentes Button que define o layout dos buttons usados para fazer o tabuleiro, o Tabuleiro que mapeia as posicoes do array passados por prop e define as classes tailwind css para formar o layout e ainda recebe prop para o onClick que posteriormente e passado para o Button para colocar o simbolo de acordo com o jogador no tabuleiro, temos o componente Player que define os nomes do jogador recebendo o mesmo passado por prop e ainda tambem recebe por prop o classeName que define as classes dos jogadores conforme seja o jogador atual e por fim o componente GameOver que define o layout a apresentar no fim de cada jogo recebendo o que aconteceu atraves de prop. As componentes Tabuleiro, GameOver e Player sao importadas e definem a rederizacao atraves de rendericao conforme alguns useStates como pode ser visto no codigo.
